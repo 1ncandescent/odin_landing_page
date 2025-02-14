@@ -11,6 +11,18 @@
     --gray-white: #E5E7EB;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+section, footer {
+    max-width: 1440px;
+    min-width: 1440px;
+}
+
 .section-1, footer {
     background-color: var(--navy-blue);
 }
@@ -22,3 +34,57 @@
 .section-3 {
     background-color: var(--gray-white);
 }
+
+/* === SECTION 1 STYLING === */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navlink a {
+    padding-left: 10px;
+}
+
+.navlink a, .logo a {
+    text-decoration: none;
+}
+
+.hero-text p, .navlink a {
+    font-size: 18px;
+    color: var(--gray-white);
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.logo a, .hero-text h1 {
+    color: var(--white);
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* === SECTION 2 STYLING === */
+
+
+
+/* === SECTION 3 STYLING === */
+
+
+
+/* === SECTION 4 STYLING === */
+
+
+
+/* === FOOTER STYLING === */
+
