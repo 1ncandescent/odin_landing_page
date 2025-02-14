@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --navy-blue: #1F2937;
+    --light-blue: #3882F6;
+    --white: #F9FAF8;
+    --gray-white: #E5E7EB;
+}
+
+.section-1, footer {
+    background-color: var(--navy-blue);
+}
+
+.section-2, .section-4 {
+    background-color: var(--white);
+}
+
+.section-3 {
+    background-color: var(--gray-white);
+}
