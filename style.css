@@ -21,6 +21,7 @@ body {
 section, footer {
     max-width: 1440px;
     min-width: 1440px;
+    padding: 0 200px 0 200px;
 }
 
 .section-1, footer {
@@ -40,6 +41,7 @@ section, footer {
 .banner {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0 20px 0;
 }
 
 .navlinks {
@@ -49,7 +51,7 @@ section, footer {
 }
 
 .navlink a {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .navlink a, .logo a {
@@ -63,6 +65,7 @@ section, footer {
 
 .logo a {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .logo a, .hero-text h1 {
@@ -72,6 +75,29 @@ section, footer {
 .hero-text h1 {
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.hero-text {
+    min-width: 43%;
+    max-width: 43%;
+}
+
+.hero-text button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--light-blue);
+    border-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
 /* === SECTION 2 STYLING === */
