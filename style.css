@@ -102,7 +102,37 @@ section, footer {
 
 /* === SECTION 2 STYLING === */
 
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+}
 
+.img-blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.img-row {
+    display: flex;
+}
+
+.img-item {
+    text-align: center;
+    margin: 0 20px 125px 20px;
+}
+
+.img-item img {
+    border: 5px solid var(--light-blue);
+    border-radius: 10px;
+}
+
+.img-item figcaption {
+    max-width: 175px;
+    color: var(--navy-blue);
+    font-size: 18px;
+}
 
 /* === SECTION 3 STYLING === */
 
