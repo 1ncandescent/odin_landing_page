@@ -159,7 +159,41 @@ section, footer {
 
 /* === SECTION 4 STYLING === */
 
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--light-blue);
+    margin: 100px 0;
+    padding: 50px 125px;
+    border-radius: 10px;
+}
 
+.cta-text h4 {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-text p {
+    color: var(--gray-white);
+    font-size: 18px;
+
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button button {
+    background-color: var(--light-blue);
+    color: var(--white);
+    font-size: 18px;
+    height: 40px;
+    width: 125px;
+    border: 3px solid var(--white);
+    border-radius: 10px;
+}
 
 /* === FOOTER STYLING === */
 
