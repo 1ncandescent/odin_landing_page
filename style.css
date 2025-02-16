@@ -136,7 +136,26 @@ section, footer {
 
 /* === SECTION 3 STYLING === */
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 780px;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 125px;
+}
+
+.quote-author {
+    text-align: right;
+    margin-bottom: 101px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /* === SECTION 4 STYLING === */
 
